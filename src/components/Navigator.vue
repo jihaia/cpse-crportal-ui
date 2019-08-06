@@ -1,5 +1,9 @@
 <template>
-  <v-navigation-drawer v-model="isOpen" :clipped="$vuetify.breakpoint.lgAndUp" app>
+  <v-navigation-drawer
+    v-model="isOpen"
+    :clipped="$vuetify.breakpoint.lgAndUp"
+    app
+  >
     <v-list dense>
       <v-list-item @click="$router.push('/dashboard')">
         <v-list-item-action>
